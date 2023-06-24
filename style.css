@@ -2,6 +2,7 @@
 /*    <!------------making_MAIN_CLASS-------------->
 */
 main{
+    position: relative;
     padding: 45px;
     line-height: 30px;
     width: 500px;
@@ -124,7 +125,7 @@ header{
     display: none;
 } 
 .navbar ul li:hover > ul{
-    display: block;
+    display: inline-table;
 }
 header ul ul li{
     border: 2px solid rgb(55, 0, 55);
@@ -145,30 +146,45 @@ header .lgbutton:hover{
 
 /*    <!------------End_making_HEADER-------------->
 */
-
-
+.part01{
+    overflow: visible;
+}
+.part02{
+    position: absolute;
+}
 
 
 
 
 /*-----------background design-------------*/
-.background .background_img{
-    width: 1523px;
-    height: 700px;
-    margin-bottom: -12px;
+.background{
+    position: absolute;
+    overflow: hidden;
     margin-top: -10px;
     margin-left: -10px;
-    position: relative;
+}
+
+.background .box01{
+position: relative;
+width: 1537px;
 }
 .background .background_gradient{
-    height: 101.3%;
-    width: 1520.5px;
+position: absolute;
+}
+.background .background_img{
+    width: 1547px;
+    height: 718px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.background .background_gradient{
+    height: 710px;
+    width: 1547px;
     background: linear-gradient(to left, rgba(55, 0, 255, 0.448),rgba(255, 0, 225, 0.428));    
-    position: absolute; 
-    top: 0;
-    left: 0; 
-    bottom: 0; 
+    top: ;
+    left: -8px; 
+    bottom: 2px; 
     right: 0;
-    margin: auto;
+  
 }
 /*-----------end background design-------------*/
